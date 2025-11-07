@@ -10,6 +10,7 @@ import LayoutOne from "./layouts/LayoutOne";
 import Home from "./pages/Home";
 import Register from "./pages/Register";
 import Login from "./pages/login";
+import app from "./firebase.config";
 
 const App = () => {
   const myroute = createBrowserRouter(
